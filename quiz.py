@@ -6,6 +6,7 @@ def main():
     print("3. Exit Game")
    
     choice = input ("Please make a choice: ")
+    
     score=[]
     score= 0
     
@@ -26,9 +27,6 @@ def main():
             else:
                 print("WRONG")
         print(score)
-             
-        
-        
         
     elif choice == "2":
         f = open('questions.txt', 'a')
